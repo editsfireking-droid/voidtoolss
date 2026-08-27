@@ -451,4 +451,6 @@ async def on_message(message: discord.Message):
 if __name__ == "__main__":
     if not TOKEN:
         raise RuntimeError("No Discord bot token found. Set DISCORD_TOKEN in Railway or bot_token in config.json for local testing.")
+    import os
+TOKEN = os.environ.get('TOKEN')
     bot.run(TOKEN)
