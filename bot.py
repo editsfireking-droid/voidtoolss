@@ -4,7 +4,6 @@ import re
 import asyncio
 from pathlib import Path
 TOKEN = os.environ.get('TOKEN')
-    bot.run(TOKEN)
 import discord
 from discord.ext import commands, tasks
 from discord import app_commands
