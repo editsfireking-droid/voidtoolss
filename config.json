@@ -1,0 +1,19 @@
+{
+    "bot_token": "MTU0MjEyMDUzNzA0MjcxNDY4Ng.Gv4eNt.6DqwJLqD1V_6SIndTPPH51nhKaV_DjMlF7H-kc",
+    "prefixes": ["$", "!"],
+    "guild_id": 1542093848472461413,
+    "embed_color": "#FFFFFF",
+    "welcome_channel_id": 1542437192691875911,
+    "reviews_channel_id": 1542434202799050792,
+    "requests_channel_id": 1542107285604667432,
+    "purchase_channel_id": 1542094222859964446,
+    "ticket_category_id": 1542093848472461414,
+    "support_staff_role_id": 1542138306584907886,
+    "purchase_staff_role_id": 1542138306584907886,
+    "verified_role_id": 1542139210889437214,
+    "free_tools_role_id": 1542119346837520419,
+    "free_tools_required_text": "discord.gg/CdHc6Vk6jZ | Free Tools",
+    "server_invite": "https://discord.gg/CdHc6Vk6jZ",
+    "welcome_footer": "Void Tools • Free Methods & Tools",
+    "logo_url": ""
+}
