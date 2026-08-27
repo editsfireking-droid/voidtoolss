@@ -3,7 +3,8 @@ import json
 import re
 import asyncio
 from pathlib import Path
-
+TOKEN = os.environ.get('TOKEN')
+    bot.run(TOKEN)
 import discord
 from discord.ext import commands, tasks
 from discord import app_commands
@@ -452,5 +453,4 @@ if __name__ == "__main__":
     if not TOKEN:
         raise RuntimeError("No Discord bot token found. Set DISCORD_TOKEN in Railway or bot_token in config.json for local testing.")
     import os
-TOKEN = os.environ.get('TOKEN')
     bot.run(TOKEN)
